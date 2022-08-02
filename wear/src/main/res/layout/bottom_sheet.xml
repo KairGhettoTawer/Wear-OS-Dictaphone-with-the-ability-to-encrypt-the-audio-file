@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/bottomSheet"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:theme="@style/Theme.MaterialComponents.Bridge"
+    android:background="@drawable/background_round"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:text="Save Record?"
+        android:textColor="@color/DarkGray"
+        android:textSize="20sp"
+        android:textAlignment="center" />
+    
+    <com.google.android.material.textfield.TextInputLayout
+        style="@style/TextLayoutStyle"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/WhiteSmoke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/filenameInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:elevation="0dp"
+            android:minHeight="48dp"
+            android:paddingStart="10dp"
+            android:paddingTop="12sp"
+            android:paddingEnd="10dp"
+            android:paddingBottom="12sp"
+            android:textColorHint="#BCAAA4"
+            android:textSize="16sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCancel"
+            android:layout_width="86dp"
+            android:layout_height="48dp"
+            android:backgroundTint="@color/DarkRed"
+            android:text="cancel"
+            android:textColor="#BDBDBD"
+            android:textSize="12sp"
+            app:cornerRadius="12dp"
+            app:rippleColor="@color/DarkGray" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnAccept"
+            android:layout_width="86dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="5dp"
+            android:backgroundTint="@color/DarkGreen"
+            android:text="Accept"
+            android:textColor="#D7CCC8"
+            android:textSize="12sp"
+            app:cornerRadius="12dp"
+            app:rippleColor="@color/DarkGray" />
+    </LinearLayout>
+</LinearLayout>
