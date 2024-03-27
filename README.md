@@ -1,4 +1,4 @@
-﻿# Wear-OS-Dictaphone-with-the-ability-to-encrypt-the-audio-file
+﻿# Wear OS Dictaphone with the ability to encrypt the audio file
 Проект Дипломной работы
 
 Простая реализация возможности шифрования аудио файла с возможностью записи
