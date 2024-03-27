@@ -4,7 +4,7 @@
 Простая реализация возможности шифрования аудио файла с возможностью записи
 
 Базу брал от урока на ютуб || I took the base from a lesson on YouTube:  
-https://www.youtube.com/playlist?list=PLpZQVidZ65jPz-XIHdWi1iCra8TU9h_kU  
-https://github.com/exRivalis/audio_recorder
+[YouTube](https://www.youtube.com/playlist?list=PLpZQVidZ65jPz-XIHdWi1iCra8TU9h_kU)  
+[GitHub](https://github.com/exRivalis/audio_recorder)
 
-Thank you @exrivalis and sorry if I messed up the code <3
+Thank you [@exrivalis](https://github.com/exrivalis) and sorry if I messed up the code <3
